@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 
-void insere (int codigo, int &t, int tamanho);
-void exibe (int codigo, int t);
-void elemento (int codigo, int t);
+//Protótipo atualizado
+void insere (int codigo[], int &t, int tamanho);
+void exibe (int codigo[], int t);
+void elemento (int codigo[], int t);
 
 int main() {
 
